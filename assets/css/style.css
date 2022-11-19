@@ -891,9 +891,9 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  color: #18d26e;
   margin: 0 2px;
-  font-size: 28px;
+  font-size: 15px;
   display: inline-block;
   transition: 0.3s;
 }
@@ -978,6 +978,11 @@ section .container {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
+
+  .portfolio-details ul i {
+    color: #18d26e;
+  }
+
 }
 
 .portfolio-details .swiper-pagination {
