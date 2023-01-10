@@ -89,12 +89,17 @@
       newSlide.classList.add("swiper-slide");
       let img = document.createElement("img");
       img.src = "../assets/img/portfolio/photos/unitedstates/" + i + ".JPG";
-
       newSlide.appendChild(img);
       swiperContainer.appendChild(newSlide);
     }
   </script>
-
+  //Костыли
+  <style>
+    .swiper-slide img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
 </body>
 
 </html>
